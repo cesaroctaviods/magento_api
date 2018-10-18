@@ -13,7 +13,7 @@ interface VentaInterface
      *
      * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
-    public function getVentaData($id);
+    public function getVentas($id);
 
 
 }

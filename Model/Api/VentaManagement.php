@@ -11,7 +11,7 @@ class VentaManagement implements \CesarOctavio\TroquerApi\Api\VentaInterface
     protected $_ventaFactory;
  
     public function __construct(
-        \CesarOctavio\Api\Model\VentaFactory $ventaFactory
+        \CesarOctavio\TroquerApi\Model\VentaFactory $ventaFactory
  
     ) {
         $this->_ventaFactory = $ventaFactory;
@@ -24,12 +24,12 @@ class VentaManagement implements \CesarOctavio\TroquerApi\Api\VentaInterface
      *
      * @param int $id
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface[]
      */
-    public function getVentaData($id)
+    public function getVentas($id)
     {
         try {
-            $model = $this->_ventaFactory
+            /*$model = $this->_ventaFactory
                 ->create();
  
             if (!$model->getId()) {
@@ -38,7 +38,8 @@ class VentaManagement implements \CesarOctavio\TroquerApi\Api\VentaInterface
                 );
             }
  
-            return $model;
+            return $model;*/
+            return [];
         } catch (\Magento\Framework\Exception\LocalizedException $e) {
             $returnArray['error'] = $e->getMessage();
             $returnArray['status'] = 0;

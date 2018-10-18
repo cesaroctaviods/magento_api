@@ -3,8 +3,8 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
     <!-- test api Group -->
-    <route url="/V1/testapi/custom/me" method="GET">
-        <service class="CesarOctavio\TroquerApi\Api\VentaInterface" method="getVentaData"/>
+    <route url="/V1/troquer/ventas" method="GET">
+        <service class="CesarOctavio\TroquerApi\Api\VentaInterface" method="getVentas"/>
         <resources>
             <resource ref="self"/>
         </resources>
@@ -12,4 +12,6 @@
             <parameter name="id" force="true">%customer_id%</parameter>
         </data>
     </route>
+
+
 </routes>
