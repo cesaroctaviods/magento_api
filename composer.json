@@ -1,0 +1,24 @@
+{
+    "name": "cesar-octavio/module-api",
+    "description": "Api para magento 2",
+    "require": {
+        "magento/framework": "0.1.0-alpha89"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "CesarOctavio/Api"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Cesar Bibriesca",
+            "homepage": "https://eurekas.club",
+            "role": "Developer"
+        }
+    ]
+}
