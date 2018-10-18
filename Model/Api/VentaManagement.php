@@ -1,8 +1,8 @@
 <?php
  
-namespace CesarOctavio\Api\Model\Api;
+namespace CesarOctavio\TroquerApi\Model\Api;
  
-class VentaManagement implements \CesarOctavio\Api\Api\VentaInterface
+class VentaManagement implements \CesarOctavio\TroquerApi\Api\VentaInterface
 {
     const SEVERE_ERROR = 0;
     const SUCCESS = 1;

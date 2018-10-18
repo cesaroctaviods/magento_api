@@ -1,12 +1,12 @@
 <?php
 
-namespace CesarOctavio\Api\Model;
+namespace CesarOctavio\TroquerApi\Model;
 
 /**
  * CesarOctavio Venta Model.
  *
  */
-class Venta  implements \CesarOctavio\Api\Api\Data\VentaInterface
+class Venta  implements \CesarOctavio\TroquerApi\Api\Data\VentaInterface
 {
     /**
      * Get ID.
@@ -23,7 +23,7 @@ class Venta  implements \CesarOctavio\Api\Api\Data\VentaInterface
      *
      * @param int $id
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function setId($id)
     {
@@ -44,7 +44,7 @@ class Venta  implements \CesarOctavio\Api\Api\Data\VentaInterface
      *
      * @param string $title
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function setTitle($title)
     {
@@ -65,7 +65,7 @@ class Venta  implements \CesarOctavio\Api\Api\Data\VentaInterface
      *
      * @param string $desc
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function setDescription($desc)
     {

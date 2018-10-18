@@ -1,5 +1,5 @@
 {
-    "name": "cesar-octavio/module-api",
+    "name": "cesar-octavio/troquer-api",
     "description": "Api para magento 2",
     "require": {
         "magento/framework": "0.1.0-alpha89"
@@ -10,17 +10,9 @@
         "map": [
             [
                 "*",
-                "CesarOctavio/Api"
+                "CesarOctavio/TroquerApi"
             ]
         ]
-    },
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "CesarOctavio\\Api\\": ""
-        }
     },
     "authors": [
         {

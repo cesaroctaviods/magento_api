@@ -1,6 +1,6 @@
 <?php
  
-namespace CesarOctavio\Api\Api;
+namespace CesarOctavio\TroquerApi\Api;
  
 interface VentaInterface
 {
@@ -11,7 +11,9 @@ interface VentaInterface
      *
      * @param int $id
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function getVentaData($id);
+
+
 }

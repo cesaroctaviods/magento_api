@@ -6,7 +6,7 @@
  * Time: 14:44
  */
 
-namespace CesarOctavio\Api\Model;
+namespace CesarOctavio\TroquerApi\Model;
 
 
 class VentaFactory

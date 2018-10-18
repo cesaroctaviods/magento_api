@@ -1,15 +1,7 @@
 <?php
-/**
- * Webkul Software.
- *
- * @category  Webkul
- *
- * @author    Webkul
- * @copyright Copyright (c) 2010-2016 Webkul Software Private Limited (https://webkul.com)
- * @license   https://store.webkul.com/license.html
- */
 
-namespace CesarOctavio\Api\Api\Data;
+
+namespace CesarOctavio\TroquerApi\Api\Data;
 
 /**
  * Marketplace product interface.
@@ -40,7 +32,7 @@ interface VentaInterface
      *
      * @param int $id
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function setId($id);
 
@@ -56,7 +48,7 @@ interface VentaInterface
      *
      * @param string $title
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function setTitle($title);
 
@@ -72,7 +64,7 @@ interface VentaInterface
      *
      * @param string $desc
      *
-     * @return \CesarOctavio\Api\Api\Data\VentaInterface
+     * @return \CesarOctavio\TroquerApi\Api\Data\VentaInterface
      */
     public function setDescription($desc);
 }
